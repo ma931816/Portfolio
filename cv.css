@@ -1,0 +1,178 @@
+*
+{                                                      
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; 
+}
+
+.container
+{
+    display:grid;
+    grid-template-columns:1fr 5fr;
+    height: 100vh;
+}
+.left 
+{
+
+    padding-right: 20px;
+    background-color: black;
+    color:white;
+    text-align: center;
+   
+
+}
+.left ul
+{
+    list-style: none;
+    position: relative;
+}
+
+.left img
+{
+    height:150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-top: 10px;
+}
+.information
+{
+    padding: 40px;
+    background-color:lightyellow;
+    color:black;
+    width: 100%;
+
+    
+}
+.information ul li
+{
+    margin-bottom: 10px;
+        font-size: 18px;
+}
+#edu1
+{   
+    position: relative;
+    right: 10px;
+    padding: 10px;
+    list-style: none;
+    font-size: 30px;
+    
+}
+#about
+{
+    list-style: none;
+    font-size:30px;
+}
+#about2
+{
+    list-style: none;
+    font-size: 20px;
+}
+#about3
+{
+    position: relative;
+    list-style: none;
+    font-size: 30px;
+    padding: 10px;
+    right: 10px;
+}
+.flexlist
+{
+    margin-left: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    left: 120px;
+    bottom: 125px;
+}
+.about4
+{
+    position: relative;
+    bottom: 100px;
+}
+#lan1
+{
+    position: relative;
+    right: 10px;
+    font-size: 30px;
+    list-style: none;
+    padding: 10px;
+}
+.about5
+{
+    position: relative;
+    bottom: 80px;
+}
+#lan2
+{
+    font-size: 30px;
+    list-style: none;
+
+}
+.lan3 
+{
+    position: relative;
+    bottom: 60px;
+}
+#lan4
+{
+    position: relative;
+    font-size: 30px;
+    list-style: none;
+    padding:10px;
+    right:10px;
+}
+.picture
+{
+    position: relative;
+    top:80px;
+}
+.picture img
+{
+    position: relative;
+    height:30px;
+    width:30px;
+    top: 50px;
+    right: 92px;
+}
+.text1
+{
+    position: relative;
+    top: 18px;
+    left:2px;
+}
+.picture2 img
+{
+  position: relative;
+  height: 30px;
+  width: 30px;
+  top: 120px;
+  right: 92px;
+}
+.text2
+{
+    position: relative;
+    top: 90px;
+    right: 30px;
+}
+.picture3 img
+{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    border-color: black;
+    top:106px;
+    right:92px;
+}
+.text3
+{
+    position: relative;
+    top: 72px;
+    right:4px;
+}
